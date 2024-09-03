@@ -1,0 +1,5 @@
+server:
+  port: ${PORT:8021}
+spring:
+  kafka:
+    bootstrap-servers: ${KAFKA_HOST:localhost:9092}
